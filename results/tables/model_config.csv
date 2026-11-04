@@ -1,0 +1,11 @@
+Parameter,Value
+GPU Type,A100
+Transformer Layers,24
+Attention Heads,16
+Model Dimension,1024
+Total Parameters,43.6M
+Batch Size,64
+Training Epochs,15
+Samples per Epoch,"500,000"
+Mixed Precision,True
+Learning Rate,0.0001

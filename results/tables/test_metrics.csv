@@ -1,0 +1,6 @@
+Metric,Value,95% CI
+ROC AUC,0.862,-
+Precision,0.355,-
+Recall,0.698,-
+F1 Score,0.471,"[0.466, 0.475]"
+Specificity,0.853,-

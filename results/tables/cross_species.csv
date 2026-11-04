@@ -1,0 +1,5 @@
+Species,N Tested,Successes,Repair Rate (%),Evolutionary Distance
+Human,300,98,32.7,0 Mya
+Mouse,300,92,30.7,~90 Mya
+Zebrafish,300,41,13.7,~430 Mya
+Chicken,300,61,20.3,~310 Mya

@@ -1,0 +1,140 @@
+{
+  "model_performance": {
+    "test_auc": 0.862,
+    "balanced_accuracy": 0.774,
+    "high_confidence_accuracy": 0.96,
+    "human_recall": 0.884,
+    "mouse_recall": 0.795,
+    "zebrafish_recall": 0.585,
+    "chicken_recall": 0.716,
+    "model_parameters": "43.6M"
+  },
+  "clinical_relevance": {
+    "pathogenic_repair_rate": 0.14,
+    "benign_repair_rate": 0.52,
+    "discrimination_ratio": 3.7,
+    "deletion_impact": 0.58,
+    "poly_a_disruption_impact": 0.59,
+    "random_point_impact": 1.0
+  },
+  "biological_validation": {
+    "poly_a_enrichment": 8.0,
+    "poly_a_pvalue": "5.25e-106",
+    "tf_binding_site_matches": 0.55,
+    "caat_box_position": 77,
+    "jaspar_validation": "55% of top motifs",
+    "cpg_enrichment": 1.74,
+    "cpg_pvalue": "7.26e-38"
+  },
+  "lethal_mutations": {
+    "total_found": 17,
+    "hotspot_location": "3_prime_edge_150_200",
+    "most_lethal_position": 198,
+    "most_lethal_mutation": "A_to_T",
+    "probability_drop": "100%_to_7.9%",
+    "mutation_types": {
+      "A_to_G": 7,
+      "A_to_T": 6,
+      "A_to_C": 4
+    },
+    "3_prime_consensus": "AAAAA"
+  },
+  "cross_species": {
+    "human_repair_rate": 0.327,
+    "mouse_repair_rate": 0.307,
+    "zebrafish_repair_rate": 0.137,
+    "chicken_repair_rate": 0.203,
+    "human_mouse_correlation": 0.593,
+    "correlation_pvalue": "2.40e-20",
+    "mammal_avg": 0.317,
+    "non_mammal_avg": 0.17,
+    "conservation_rate": 0.111
+  },
+  "enhancer_properties": {
+    "strong_enhancers_pct": 0.525,
+    "medium_enhancers_pct": 0.11,
+    "weak_enhancers_pct": 0.249,
+    "borderline_enhancers_pct": 0.116,
+    "strong_gc_content": 0.444,
+    "weak_gc_content": 0.478,
+    "complexity_correlation": -0.309,
+    "complexity_pvalue": "1.52e-12",
+    "mutation_robustness_50_mutations": 0.89
+  },
+  "essential_motifs": {
+    "regions_identified": 8,
+    "motif_sequences": [
+      {
+        "position": 77,
+        "sequence": "CCAATTGATAC",
+        "match": "CAAT-box"
+      },
+      {
+        "position": 83,
+        "sequence": "GATACGGTAAG",
+        "match": null
+      },
+      {
+        "position": 92,
+        "sequence": "AGAGAATTAAA",
+        "match": null
+      },
+      {
+        "position": 194,
+        "sequence": "AAAAAAAAAAA",
+        "match": "Poly-A"
+      }
+    ],
+    "position_198_requirements": {
+      "A": 0.829,
+      "C": 0.672,
+      "G": 0.655,
+      "T": 0.624
+    }
+  },
+  "nucleotide_specificity": {
+    "position_77": {
+      "required": "G",
+      "avoid": "A"
+    },
+    "position_83": {
+      "required": "C",
+      "avoid": "T"
+    },
+    "position_92": {
+      "required": "G",
+      "avoid": "A"
+    },
+    "position_194": {
+      "required": "A",
+      "avoid": "G"
+    },
+    "position_198": {
+      "required": "A",
+      "avoid": "T"
+    }
+  },
+  "kmer_analysis": {
+    "rf_balanced_accuracy": 0.728,
+    "rf_enhancer_recall": 0.655,
+    "rf_background_recall": 0.8,
+    "cross_species_transfer": 0.67,
+    "motif_conservation": 0.6,
+    "minimal_signature_accuracy": 0.92,
+    "aat_att_spacing_instances": 1649,
+    "edge_vs_center_ratio": 4.3
+  },
+  "epistasis": {
+    "synergistic": 0,
+    "buffering": 0,
+    "additive": 17,
+    "interpretation": "independent_effects"
+  },
+  "confidence_calibration": {
+    "50_60_accuracy": 0.409,
+    "60_70_accuracy": 0.482,
+    "70_80_accuracy": 0.752,
+    "80_90_accuracy": 0.889,
+    "90_100_accuracy": 0.96
+  }
+}

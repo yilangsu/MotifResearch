@@ -1,0 +1,9 @@
+Metric,Value
+Generation Success Rate,22.5%
+GC Content (Generated),0.5173 ± 0.0331
+GC Content (Real),0.4392 ± 0.0941
+KS Test p-value (GC),0.0000
+Motif Count (Generated),0.44 ± 0.68
+Motif Count (Real),0.30 ± 0.57
+Mann-Whitney p-value,0.1022
+Overall Validation,FAILED

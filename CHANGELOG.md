@@ -13,6 +13,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Pre-trained model weights release
 - Integration with JASPAR motif database
 
+## [2.0.0] - 2026-02-21
+
+### Added
+- Final pipeline notebook (`notebooks/enhancer_repair_pipeline.ipynb`) with saved outputs from the A100 run
+- Processed enhancer and background sequences for human, mouse, chicken, and zebrafish
+- Final figures, result tables, summary report, and statistics
+- Science fair board
+
+### Removed
+- Old notebooks (`main_pipeline.ipynb`, `main_pipeline_old.ipynb`) and the scripts that generated them
+- Old raw sequence files, replaced by `data/processed/`
+
 ## [1.0.0] - 2025-01-05
 
 ### Added

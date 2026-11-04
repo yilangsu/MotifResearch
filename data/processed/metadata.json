@@ -1,0 +1,23 @@
+{
+  "total_sequences": 1417716,
+  "sequence_length": 200,
+  "n_train": 992967,
+  "n_val": 212091,
+  "n_test": 212658,
+  "species_names": [
+    "human",
+    "mouse",
+    "zebrafish",
+    "chicken",
+    "background"
+  ],
+  "species_counts": {
+    "human": 78306,
+    "mouse": 59424,
+    "zebrafish": 2838,
+    "chicken": 7139,
+    "background": 1270009
+  },
+  "n_positive": 147707,
+  "n_negative": 1270009
+}

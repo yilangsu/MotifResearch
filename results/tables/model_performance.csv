@@ -1,0 +1,4 @@
+Dataset,Loss,Accuracy (%),95% CI
+Training,0.1875,93.10,-
+Validation,1.2158,57.80,-
+Test,0.3787,83.64,"[83.49, 83.81]"

@@ -1,0 +1,4 @@
+Interaction Type,Count,Percentage,Biological Interpretation
+Synergistic,0,0.0%,Both motifs required for function
+Redundant,0,0.0%,Either motif sufficient (backup)
+Independent,28,100.0%,No interaction detected

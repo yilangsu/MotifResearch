@@ -87,6 +87,8 @@ data/raw/*.fasta
 data/raw/*.fasta.gz
 data/processed/*.npz
 data/processed/*.pkl
+# Over GitHub's 100 MB limit (kept locally)
+data/processed/human_backgrounds.jsonl
 
 # Model weights (can be large)
 models/*.pt
@@ -94,14 +96,6 @@ models/*.pth
 checkpoints/*.pt
 checkpoints/*.pth
 
-# Results (regeneratable)
-results/**/*.pkl
-results/**/*.json
-
-# Figures (regeneratable)
-figures/*.png
-figures/*.pdf
-figures/*.svg
 
 # Logs
 logs/*.log
